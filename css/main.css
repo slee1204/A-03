@@ -87,6 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 /* HEADER */
 
 .navigation{
@@ -130,6 +131,12 @@ textarea {
   background-color: #166ba2;
 }
 
+
+
+   main {
+     max-width:990px;
+     margin: 0 auto;
+   }
 
 /* ==========================================================================
    Helper classes
