@@ -87,10 +87,115 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   main {
-     max-width:990px;
-     margin: 0 auto;
-   }
+
+main,footer > * {
+  max-width:990px;
+  margin: 0 auto;
+}
+/* footer */
+footer {
+  background-color:#16242f;
+  color:#fff;
+}
+.herman_bio {
+  display:flex;
+  align-items:center;
+}
+.peewee_desc {
+  font-style: italic;
+}
+.footer_headshot {
+  border-radius:50%;
+  object-fit:cover;
+  height:50pt;
+  width:50pt;
+  flex-shrink:0;
+  padding:10pt;
+}
+.lower_footer {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lower_footer > div {
+  padding:10px;
+}
+/* sns buttons */
+.sns_buttons {
+  display:flex;
+}
+.sns_buttons button {
+  border:none;
+  margin:1pt;
+}
+
+.sns_buttons img {
+  display:flex;
+  justify-content:center;
+  height:20pt;
+  width:20pt;
+  object-fit:cover;
+}
+
+.fb {
+  background-color: blue;
+}
+.google {
+  background-color: red;
+}
+.twitter {
+  background-color: lightblue;
+}
+.ig {
+  background-color:fuchsia;
+}
+.rss {
+  background-color:orange;
+}
+/* flickr photos */
+.flickr_img {
+  display: grid;
+  grid-template-columns: 50pt 50pt 50pt;
+  grid-gap: 10pt;
+}
+/* tweets */
+.twitter_icon {
+  height:20pt;
+  width:20pt;
+  padding: 5pt;
+  background-color:grey;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.tweet {
+  display:flex;
+  align-items:center;
+  padding: 5pt;
+}
+/* newsletter */
+input {
+  background-color:red;
+  color:#fff;
+  height:20pt;
+  border:none;
+  padding:5pt;
+}
+.send {
+  height:30pt;
+  width:30pt;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  object-fit:cover;
+}
+.email_input {
+  display:flex;
+  flex-shrink:1;
+  justify-content:center;
+  align-items:center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
