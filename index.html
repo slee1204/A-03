@@ -30,28 +30,33 @@
             </div>	
             <div class="menus">
                 <ul>
-                    <button>
+                    <button class="home">
                         <div>
-                            Home <img src="/img/icons/home.png" alt="home">
+                            <img src="/img/icons/home.png" alt="home">
+                            <span>Home</span>
                         </div>
                     </button>
-                    <button>
+                    <button class="pages">
                         <div>
-                            Pages <img src="/img/icons/pages.png" alt="pages">
+                            <img src="/img/icons/pages.png" alt="pages">
+                            <span>Pages</span>
                         </div>
                     </button>
-                    <button>
+                    <button class="blog">
                         <div>
-                            Blog <img src="/img/icons/blog.png" alt="blog">
+                            <img src="/img/icons/blog.png" alt="blog">
+                            <span>Blog</span>
                         </div>
                     </button>
-                    <button>
+                    <button class="portforlio">
                         <div>
-                            Portfolios <img src="/img/icons/portfolio.png" alt="portfolio">
+                            <img src="/img/icons/portfolio.png" alt="portfolio">
+                            <span>Portfolios</span>
                         </div>
                     </button>
-                    <button>
-                        Home <img src="/img/icons/home.png" alt="home">
+                    <button class="blue_home">
+                        <img src="/img/icons/home.png" alt="home">
+                        <span>Home</span>
                     </button>
 				  </ul>
             </div>
@@ -61,30 +66,26 @@
 <main>
 <section class="carousel">
     <div class="hero_img">
-        <button>
-            <img class="left_button" src="img/icons/chevron.png" alt="move left">
-        </button>
-        <button>
-            <p>
-                Metro Style
-            </p>
-        </button>
-        <button>
-            <p>
+        <!-- <img class="banner" src="/img/minion_banner.png" alt="minion hero image"> -->
+            <button>
+                <img class="left_button" src="img/icons/chevron.png" alt="move left">
+            </button>
+            
+            <div class="side metro">
+                    Metro Style
+            </div>
+           
+            <div class="side retina">
                 Retina Ready
-            </p>
-        </button>
-        <button>
-            <p>
+            </div>
+           
+            <div class="side responsive">
                 Responsive Design
-            </p>
-        </button>
-        <button>
-            <img class="right_button" src="img/icons/chevron.png" alt="move right">
-        </button>
-
-        <img src="/img/minion_banner.png" alt="minion hero image">
-        
+            </div>
+            
+            <button>
+                <img class="right_button" src="img/icons/chevron_right.png" alt="move right">
+            </button>
     </div>
 </section>
   
@@ -191,8 +192,10 @@
 
   
 <section class="projects">
-  <p>Our Latest Projects</p>
+  <div class="projects_header">
+  <h3>Our Latest Projects</h3>
   <p>Client happy? We are happy.</p>
+  </div>
   <div class="projects_img">
     <div class="img_container">
       <img src="/img/dj.png">
@@ -279,14 +282,16 @@
   <footer>
     <div class="herman_bio">
       <img class="footer_headshot" src="/img/peewee.png" alt="Headshot of Peewee Herman" />
-      <p>Peewee Herman</p>
-      <p>
+      <div class="bio_text">
+        <p>Peewee Herman</p>
+      <p class="peewee_desc">
         Peewee has over 10 years experience in the industry. He is our
         Creative Director, digital designer, web designer and front-end
         developer. He is also pretty good with a sketchbook. Before starting
         the company Peewee worked as a designer and studio manager for a
         design house who boasted a number of big name clients.
       </p>
+      </div>
     </div>
     <div class="hr_light">
       <hr />
@@ -383,10 +388,12 @@
           Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar
           potatoooo tank yuuu! Aaaaaah potatoooo poopayee.
         </p>
+        <div class="email_input">
         <input type="email" placeholder="Enter your Email..." />
         <button class="send">
           <img src="/img/btn_send.png" alt="send" />
         </button>
+        </div>
       </div>
     </div>
     <div class="footer_block">
