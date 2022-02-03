@@ -13,6 +13,7 @@
 
 html {
   color: #222;
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -87,7 +88,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 /* HEADER */
 
 .navigation{
@@ -101,8 +101,13 @@ textarea {
   height: 80px;
 }
 .menus button{
+
+  width: 140px;
+  height: 130px;
+
   width: 120px;
   height: 110px;
+
   border: none;
 }
 .menus img {
@@ -132,11 +137,69 @@ textarea {
 }
 
 
+/* carousel */
+
+.hero_img {
+  background: url('/img/minion_banner.png') no-repeat center;
+  z-index: -1;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+}
+.hero_img button{
+  border: none;
+  background: transparent;
+}
+
+.left_button {
+  width: 30px;
+  background: transparent;
+  border: white solid 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+}
+
+.right_button {
+  width: 30px;
+  background: transparent;
+  border: white solid 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+  right: -100px;
+}
+
+.side {
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  background-color: white;
+  color: #3c3c3c;
+  font-size: 20px;
+  padding: 2px 15px;
+}
+
+.metro {
+  border-left: 7px solid #186aa2;
+}
+.retina {
+  border-left: 7px solid #df6260;
+}
+.responsive {
+  border-left: 7px solid #fcbb00;
+}
+
+
+
+=======
+
 
    main {
      max-width:990px;
      margin: 0 auto;
    }
+
 
 /* ==========================================================================
    Helper classes
