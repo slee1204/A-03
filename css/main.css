@@ -219,6 +219,30 @@ main {
   opacity:0.3;
 }
 
+/* thingsofabove */
+
+ .thingsofabove_header {
+     text-align:center;
+     line-height:100%;
+
+   }
+   .menu {
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content:center;
+     
+   }
+   .menu > img {
+     max-width:100%;
+     height:auto;
+   }
+   .partners {
+     display:flex;
+     justify-content:space-between;
+     padding:3em 0;
+   }
+
+
 /* footer */
 footer {
   background-color:#16242f;
