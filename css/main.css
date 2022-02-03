@@ -101,8 +101,13 @@ textarea {
   height: 80px;
 }
 .menus button{
+
   width: 140px;
   height: 130px;
+
+  width: 120px;
+  height: 110px;
+
   border: none;
 }
 .menus img {
@@ -130,6 +135,7 @@ textarea {
 .blue_home {
   background-color: #166ba2;
 }
+
 
 /* carousel */
 
@@ -185,6 +191,14 @@ textarea {
 }
 
 
+
+=======
+
+
+   main {
+     max-width:990px;
+     margin: 0 auto;
+   }
 
 
 /* ==========================================================================
