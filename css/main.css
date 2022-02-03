@@ -11,88 +11,82 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #222;
-    font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
-    font-size: 1em;
-    line-height: 1.4;
-  }
-  
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
-  
-  ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  /*
-   * A better looking default horizontal rule
-   */
-  
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
-  /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
-  
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-    vertical-align: middle;
-  }
-  
-  /*
-   * Remove default fieldset styles.
-   */
-  
-  fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /*
-   * Allow only vertical resizing of textareas.
-   */
-  
-  textarea {
-    resize: vertical;
-  }
-  
+html {
+  color: #222;
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  
-  main,footer > * {
-    max-width:990px;
-    margin: 0 auto;
-  }
-  
   
   
   /* ==========================================================================
@@ -290,26 +284,51 @@
     max-width:990px;
     margin: 0 auto;
   }
-  
-  .projects_header {
-    text-align:center;
-  }
-  .projects_img {
-    display:grid;
-    grid-template-columns: auto auto auto;
-  }
-  .project_hover {
-    display:flex;
-    justify-content:space-between;
-  }
-  .file_icon img {
-    height:25pt;
-    width:25pt; 
-  }
-  .img_container > img:hover {
-    opacity:0.3;
-  }
-  
+
+/* projects */
+.projects_header {
+  text-align:center;
+}
+.projects_img {
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+.project_hover {
+  display:flex;
+  justify-content:space-between;
+}
+.file_icon img {
+  height:25pt;
+  width:25pt; 
+}
+.img_container > img:hover {
+  opacity:0.3;
+}
+
+/* thingsofabove */
+
+ .thingsofabove_header {
+     text-align:center;
+     line-height:100%;
+
+   }
+   .menu {
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content:center;
+     
+   }
+   .menu > img {
+     max-width:100%;
+     height:auto;
+   }
+   .partners {
+     display:flex;
+     justify-content:space-between;
+     padding:3em 0;
+   }
+
+
   /* footer */
   footer {
     background-color:#16242f;
