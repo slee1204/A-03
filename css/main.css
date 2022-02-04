@@ -108,7 +108,11 @@ img {
     }
     
     /* Small only */
-    @media screen and (max-width: 39.9375em) {}
+    @media screen and (max-width: 39.9375em) {
+      .s-hide {
+        display:none;
+      }
+    }
     /* Medium and up */
     @media screen and (min-width: 40em) {
       .row {
@@ -133,9 +137,6 @@ img {
       .span-full {
         grid-column-start:1;
         grid-column-end:-1;
-      }
-      .s-hide {
-        display:none;
       }
     }
     /* Medium only */
@@ -258,139 +259,6 @@ img {
     .responsive {
       border-left: 7px solid #fcbb00;
     }
-  
-  /* projects */
-  .projects_header {
-    text-align:center;
-  }
-  .projects_img {
-    display:grid;
-    grid-template-columns: auto auto auto;
-  }
-  .project_hover {
-    display:flex;
-    justify-content:space-between;
-  }
-  .file_icon img {
-    height:25pt;
-    width:25pt; 
-  }
-  .img_container > img:hover {
-    opacity:0.3;
-  }
-  
-  /* thingsofabove */
-  
-   .thingsofabove_header {
-       text-align:center;
-       line-height:100%;
-  
-     }
-     .menu {
-       display:grid;
-       grid-template-columns: 1fr 1fr;
-       justify-content:center;
-       
-     }
-     .menu > img {
-       max-width:100%;
-       height:auto;
-     }
-     .partners {
-       display:flex;
-       justify-content:space-between;
-       padding:3em 0;
-     }
-  
-  
-    /* footer */
-    footer {
-      background-color:#16242f;
-      color:#fff;
-    }
-    .herman_bio {
-      display:flex;
-      align-items:center;
-    }
-    .footer_headshot {
-      border-radius:50%;
-      object-fit:cover;
-      height:50pt;
-      width:50pt;
-      flex-shrink:0;
-      padding:10pt;
-    }
-    /* sns buttons */
-    .sns_buttons {
-      display:flex;
-    }
-    .sns_buttons button {
-      border:none;
-      margin:1pt;
-    }
-    
-    .sns_buttons img {
-      display:flex;
-      justify-content:center;
-      height:20pt;
-      width:20pt;
-      object-fit:cover;
-    }
-    
-    .fb {
-      background-color: blue;
-    }
-    .google {
-      background-color: red;
-    }
-    .twitter {
-      background-color: lightblue;
-    }
-    .ig {
-      background-color:fuchsia;
-    }
-    .rss {
-      background-color:orange;
-    }
-    
-    /* tweets */
-    .twitter_icon {
-      height:20pt;
-      width:20pt;
-      padding: 5pt;
-      background-color:grey;
-      border-radius:50%;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-    .tweet {
-      display:flex;
-      align-items:center;
-      padding: 5pt;
-    }
-    /* newsletter */
-    input {
-      background-color:red;
-      color:#fff;
-      height:20pt;
-      border:none;
-      padding:5pt;
-    }
-    .send {
-      height:30pt;
-      width:30pt;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      object-fit:cover;
-    }
-    .email_input {
-      display:flex;
-      flex-shrink:1;
-      justify-content:center;
-      align-items:center;
-    }
     }
     
     /* Large only */
@@ -408,6 +276,12 @@ img {
      THEME
      ========================================================================== */
   
+     footer > .row {
+       background-image:url(../img/icons/coloured-bars.png);
+       background-repeat: no-repeat;
+       background-position:bottom right;
+       padding-bottom:2rem;
+     }
   /*
    * Hide visually and from screen readers
    */
