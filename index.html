@@ -227,7 +227,7 @@
               <p>Sample Image Post</p>
               <p>Photography</p>
               <button class="file_icon">
-                <img src="/img/icons/tabbedPage.png" alt="dj">
+                <img src="img/icons/tabbedPage.png" alt="dj">
               </button>
             </div> 
           </div>
@@ -283,7 +283,7 @@
       </div>
     </section> <!-- projects ends here-->
 
-    <section class="thingsofabove">
+    <section class="thingsofabove s-hide">
       <div class="row l-col-2">
         <div class="column span-full">
           <div class="thingsofabove_header heading">
@@ -300,7 +300,7 @@
       </div>
   </section> <!-- thingsofabove ends here-->
 
-    <section class="partners">
+    <section class="partners s-hide">
       <div class="row m-col-5">
         <div class="column">
           <a href="/"><img src="/img/netbeans.png" alt="netbeans"></a>
@@ -337,8 +337,8 @@
           </div> 
         </div>
           <div class="about column">
-            <p>About Us</p>
-            <p>
+            <p class="s-hide footer_header">About Us</p>
+            <p class="s-hide">
               Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala
               jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do
               chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt
@@ -347,7 +347,7 @@
               Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar
               potatoooo tank yuuu! Aaaaaah potatoooo poopayee.
             </p>
-            <div class="sns_buttons">
+            <div class="sns_buttons column">
               <a class="fb" href="/">
                 <img src="/img/icons/facebook.png" alt="fb">
               </a>
@@ -364,9 +364,9 @@
                 <img src="/img/icons/wifi.png" alt="rss">
               </a>
             </div>
-          </div>
-          <div class="flickr column">
-            <p>Flickr Photos</p>
+            </div>
+          <div class="flickr column s-hide">
+            <p class="footer_header">Flickr Photos</p>
             <div class="flickr_img">
               <div class="column">
                 <img src="/img/minion_a.png" alt="flickr img" />
@@ -389,7 +389,7 @@
             </div>
           </div>
           <div class="recent_tweets column">
-            <p>Recent Tweets</p>
+            <p class="footer_header">Recent Tweets</p>
             <div class="tweet">
               <div class="twitter_icon">
                 <img class="twitter_icon" src="/img/icons/twitter.png" alt="twitter icon">
@@ -409,8 +409,8 @@
               </p>
             </div>
           </div>
-          <div class="newsletter column">
-            <p>Newsletter</p>
+          <div class="newsletter column s-hide">
+            <p class="footer_header">Newsletter</p>
             <p>
               Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala
               jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do
@@ -420,10 +420,12 @@
               Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar
               potatoooo tank yuuu! Aaaaaah potatoooo poopayee.
             </p>
+            <div class="email_signup">
             <input type="email" placeholder="Enter your Email..." />
-            <button class="send">
+            <a class="send">
               <img src="/img/btn_send.png" alt="send" />
-            </button>
+            </a>
+            </div>
           </div>
       </div>
   </footer>
